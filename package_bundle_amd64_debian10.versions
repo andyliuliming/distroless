@@ -41,5 +41,6 @@
     "python3.7-minimal": "3.7.3-2+deb10u3",
     "readline-common": "7.0-5",
     "tzdata": "2021a-0+deb10u1",
-    "zlib1g": "1:1.2.11.dfsg-1"
+    "zlib1g": "1:1.2.11.dfsg-1",
+    "nginx": "1.14.2-2+deb10u4"
 }
