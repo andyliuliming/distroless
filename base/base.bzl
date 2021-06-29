@@ -49,6 +49,18 @@ def distro_components(distro_suffix):
                 workdir = workdir,
             )
 
+            # container_image(
+            #     name = "base_nginx_" + user + "_" + arch + distro_suffix,
+            #     architecture = arch,
+            #     base = ":static_" + user + "_" + arch + distro_suffix,
+            #     debs = [
+            #         DISTRO_PACKAGES[arch][distro_suffix]["libc6"],
+            #         DISTRO_PACKAGES[arch][distro_suffix]["libssl1.1"],
+            #         DISTRO_PACKAGES[arch][distro_suffix]["openssl"],
+            #         DISTRO_PACKAGES[arch][distro_suffix]["nginx"],
+            #     ],
+            # )
+
             container_image(
                 name = "base_" + user + "_" + arch + distro_suffix,
                 architecture = arch,
